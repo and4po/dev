@@ -32,7 +32,7 @@ if (navigator.language == "ca-ES" || navigator.language == "ca") {
     document.getElementById("titol").innerHTML = "Cites"
     document.getElementById("quote").innerHTML = "« Tot el nostre coneixement té el seu origen en les nostres percepcions. »"
     document.getElementById("genera").innerHTML = "Genera nova"
-    alert("Atenció! Les cites són traduïdes al català per el Traductor de Google, així que poden ser incorrectes.")
+    // alert("Atenció! Les cites són traduïdes al català per el Traductor de Google, així que poden ser incorrectes.")
 } else {
     document.getElementById("quote").innerHTML = "“All our knowledge has its origins in our perceptions.”"
 }
