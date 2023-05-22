@@ -6,7 +6,7 @@ var cm_close = '”'
 
 function genera() {
     if (navigator.language == "ca-ES" || navigator.language == "ca") {
-        quotes = "https://raw.githubusercontent.com/and4po/Provant/main/quotes(ca).json"
+        quotes = "https://raw.githubusercontent.com/and4po/dev/main/quotes/assets/quotes(ca).json"
         cm_open = "« "
         cm_close = " »"
     }
