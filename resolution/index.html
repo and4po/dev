@@ -11,9 +11,10 @@
     <p id="resol">Resolució...</p>
     <script>
         function canvia() {
-        var w = document.documentElement.clientWidth;
-        var h = document.documentElement.clientHeight;
-        document.getElementById("resol").innerHTML = w + "x" + h
+            var w = document.documentElement.clientWidth;
+            var h = document.documentElement.clientHeight;
+            var ratio = window.devicePixelRatio
+            document.getElementById("resol").innerHTML = w + "x" + h + " | " + ratio
         }       
         canvia()
     </script>
