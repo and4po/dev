@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolució de la pantalla</title>
+</head>
+<body>
+    <button onclick="canvia()">Calcula</button>
+    <p id="resol">Resolució...</p>
+    <script>
+        function canvia() {
+        var w = document.documentElement.clientWidth;
+        var h = document.documentElement.clientHeight;
+        document.getElementById("resol").innerHTML = w + "x" + h
+        }       
+        canvia()
+    </script>
+</body>
+</html>
